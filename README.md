@@ -786,13 +786,6 @@ socket.on('no_availability', () => {
 
 ## Deployment Considerations
 
-### 1. **Environment Variables**
-```bash
-DB_URL_TWO=mongodb+srv://username:password@cluster.mongodb.net/nabi_db
-SECRET=your-secret-key
-MAIL_USER=volunteer@nabi.health
-MAIL_PASS=your-mail-password
-```
 
 ### 2. **Firebase Configuration**
 - **Service Account**: `nabiservice.json` file required
